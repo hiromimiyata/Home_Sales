@@ -27,8 +27,9 @@ The dataset used in this assignment contains the following columns:
 - long: The longitude coordinate of the location of the home.
 - sqft_living15: The square footage of the living space of the nearest 15 neighboring homes.
 - sqft_lot15: The square footage of the lot of the nearest 15 neighboring homes.
-- Technologies Used
-- The assignment is implemented using the following technologies:
+
+## Technologies Used
+The assignment is implemented using the following technologies:
 
 Apache Spark: The data processing and analysis are performed using Apache Spark, which provides a distributed computing framework for big data processing.
 Python: The code is written in Python programming language, and PySpark is used to interact with Apache Spark.

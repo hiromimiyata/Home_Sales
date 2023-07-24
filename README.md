@@ -6,29 +6,29 @@ This repository contains the code and data for the Home Sales assignment. The go
 ## Dataset
 The dataset used in this assignment contains the following columns:
 
-sale_id: A unique identifier for each home sale.
-sale_date: The date of the home sale.
-sale_price: The price at which the home was sold.
-bedrooms: The number of bedrooms in the home.
-bathrooms: The number of bathrooms in the home.
-sqft_living: The total square footage of the living space in the home.
-sqft_lot: The total square footage of the lot on which the home is built.
-floors: The number of floors in the home.
-waterfront: A binary indicator (0 or 1) representing whether the home is located on the waterfront.
-view: A rating (0-4) representing the view from the home.
-condition: A rating (1-5) representing the overall condition of the home.
-grade: A rating (1-13) representing the overall grade given to the home based on various factors.
-sqft_above: The square footage of the home above ground level.
-sqft_basement: The square footage of the basement in the home.
-yr_built: The year the home was built.
-yr_renovated: The year the home was last renovated (0 if not renovated).
-zipcode: The ZIP code of the location of the home.
-lat: The latitude coordinate of the location of the home.
-long: The longitude coordinate of the location of the home.
-sqft_living15: The square footage of the living space of the nearest 15 neighboring homes.
-sqft_lot15: The square footage of the lot of the nearest 15 neighboring homes.
-Technologies Used
-The assignment is implemented using the following technologies:
+- sale_id: A unique identifier for each home sale.
+- sale_date: The date of the home sale.
+- sale_price: The price at which the home was sold.
+- bedrooms: The number of bedrooms in the home.
+- bathrooms: The number of bathrooms in the home.
+- sqft_living: The total square footage of the living space in the home.
+- sqft_lot: The total square footage of the lot on which the home is built.
+- floors: The number of floors in the home.
+- waterfront: A binary indicator (0 or 1) representing whether the home is located on the waterfront.
+- view: A rating (0-4) representing the view from the home.
+- condition: A rating (1-5) representing the overall condition of the home.
+- grade: A rating (1-13) representing the overall grade given to the home based on various factors.
+- sqft_above: The square footage of the home above ground level.
+- sqft_basement: The square footage of the basement in the home.
+- yr_built: The year the home was built.
+- yr_renovated: The year the home was last renovated (0 if not renovated).
+- zipcode: The ZIP code of the location of the home.
+- lat: The latitude coordinate of the location of the home.
+- long: The longitude coordinate of the location of the home.
+- sqft_living15: The square footage of the living space of the nearest 15 neighboring homes.
+- sqft_lot15: The square footage of the lot of the nearest 15 neighboring homes.
+- Technologies Used
+- The assignment is implemented using the following technologies:
 
 Apache Spark: The data processing and analysis are performed using Apache Spark, which provides a distributed computing framework for big data processing.
 Python: The code is written in Python programming language, and PySpark is used to interact with Apache Spark.
